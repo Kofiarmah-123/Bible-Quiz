@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f0f2f5;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:600px;
+    background:#fff;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,.2);
+}
+
+.hide{
+    display:none;
+}
+
+h1,h2,h3{
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    font-size:16px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    margin-bottom:20px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    font-size:18px;
+    border:none;
+    border-radius:5px;
+    background:#007bff;
+    color:white;
+    cursor:pointer;
+    margin-top:15px;
+}
+
+button:hover{
+    background:#0056b3;
+}
+
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+#timer{
+    color:red;
+}
+
+.answer-btn{
+    width:100%;
+    padding:12px;
+    margin-top:10px;
+    background:#6c757d;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.answer-btn:hover{
+    background:#495057;
+}
+
+.answer-btn:disabled{
+    background:#999;
+    cursor:not-allowed;
+}
+
+#result-screen{
+    text-align:center;
+}
+
+#score,
+#percentage,
+#studentResult{
+    margin:15px 0;
+}
