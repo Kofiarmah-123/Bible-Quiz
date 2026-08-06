@@ -86,10 +86,10 @@ const progress = document.getElementById("progress");
 
 startBtn.addEventListener("click", function(){
 
-    const student =
-    document.getElementById("studentName").value;
+    const name =
+    document.getElementById("Name").value;
 
-    if(student==""){
+    if(name==""){
         alert("Please enter your name.");
         return;
     }
@@ -232,11 +232,11 @@ function showResult(){
 
     resultScreen.classList.remove("hide");
 
-    const student=
-    document.getElementById("studentName").value;
+    const name=
+    document.getElementById("Name").value;
 
-    document.getElementById("studentResult").innerHTML=
-    "Student: "+student;
+    document.getElementById("Result").innerHTML=
+    "Name: "+name;
 
     document.getElementById("score").innerHTML=
     "Score: "+score+" / "+questions.length;
